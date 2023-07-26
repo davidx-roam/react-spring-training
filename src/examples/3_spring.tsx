@@ -5,6 +5,7 @@ export const Example = () => {
     from: { left: 0 },
     to: { left: 200 },
     config: {
+      // Doc to config: https://react-spring.dev/docs/advanced/config
       mass: 1,
       friction: 200,
       tension: 300,
