@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Example as CSSTransitionExample } from "./excercises/1_transition";
-import { Example as CssAnimationExample } from "./excercises/2_animation";
-import { Example as SpringExample } from "./excercises/3_spring";
-import { Example as InteractiveExample } from "./excercises/4_interaction";
-import { Example as ChainExample } from "./excercises/5_chain";
-import { Example as CustomExample } from "./excercises/6_custom";
+import { Example as CSSTransitionExample } from "./examples/1_transition";
+import { Example as CssAnimationExample } from "./examples/2_animation";
+import { Example as SpringExample } from "./examples/3_spring";
+import { Example as InteractiveExample } from "./examples/4_interaction";
+import { Example as ChainExample } from "./examples/5_chain";
+import { Example as CustomExample } from "./examples/6_custom";
 
 function App() {
   const [page, setPage] = useState(0);
