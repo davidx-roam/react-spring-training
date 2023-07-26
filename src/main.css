@@ -1,0 +1,10 @@
+.container {
+  padding: 100px 20px;
+}
+
+.square {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
