@@ -9,7 +9,8 @@ import { Example as MultiStepExample } from "./examples/7_multi-step-spring";
 import { Example as SpringsExample } from "./examples/8_springs";
 import { Example as TrailsExample } from "./examples/9_trail";
 import { Example as TransitionExample } from "./examples/10_spring-transition";
-import { Example as CapstonePropject } from "./examples/11_capstone";
+import { Example as ScrollExample } from "./examples/11_use_scroll";
+import { Example as CapstonePropject } from "./examples/12_capstone";
 
 function App() {
   const [page, setPage] = useState(0);
@@ -26,7 +27,8 @@ function App() {
       <button onClick={() => setPage(7)}>Springs</button>
       <button onClick={() => setPage(8)}>Trails</button>
       <button onClick={() => setPage(9)}>Transition</button>
-      <button onClick={() => setPage(10)}>CapstonePropject</button>
+      <button onClick={() => setPage(10)}>Scroll</button>
+      <button onClick={() => setPage(11)}>CapstonePropject</button>
 
       <div style={{ padding: "24px 0" }}>
         {page === 0 && <CSSTransitionExample />}
@@ -39,7 +41,8 @@ function App() {
         {page === 7 && <SpringsExample />}
         {page === 8 && <TrailsExample />}
         {page === 9 && <TransitionExample />}
-        {page === 10 && <CapstonePropject />}
+        {page === 10 && <ScrollExample />}
+        {page === 11 && <CapstonePropject />}
       </div>
     </>
   );
